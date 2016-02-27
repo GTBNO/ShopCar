@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8FFD351C7FDC3400CE2359 /* MutibleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FFD331C7FDC3400CE2359 /* MutibleSelectTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3F8FFD361C7FDC3400CE2359 /* MutibleSelectTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FFD341C7FDC3400CE2359 /* MutibleSelectTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		3F8FFD441C7FF51700CE2359 /* PriceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FFD421C7FF51700CE2359 /* PriceTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3F8FFD451C7FF51700CE2359 /* PriceTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FFD431C7FF51700CE2359 /* PriceTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		3F8FFD4C1C7FF56400CE2359 /* PriceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FFD4A1C7FF56400CE2359 /* PriceTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		3F8FFD4D1C7FF56400CE2359 /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FFD4B1C7FF56400CE2359 /* PriceTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		3F8FFD501C7FF85900CE2359 /* priceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FFD4F1C7FF85900CE2359 /* priceModel.m */; settings = {ASSET_TAGS = (); }; };
+		3F8FFD521C7FFB9900CE2359 /* 屏幕快照 2015-12-24 上午10.39.48_spec.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8FFD511C7FFB9900CE2359 /* 屏幕快照 2015-12-24 上午10.39.48_spec.png */; settings = {ASSET_TAGS = (); }; };
+		3FB96C5F1C7EDA9F00A73953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB96C5E1C7EDA9F00A73953 /* main.m */; };
+		3FB96C621C7EDA9F00A73953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB96C611C7EDA9F00A73953 /* AppDelegate.m */; };
+		3FB96C681C7EDA9F00A73953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB96C661C7EDA9F00A73953 /* Main.storyboard */; };
+		3FB96C6A1C7EDA9F00A73953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB96C691C7EDA9F00A73953 /* Assets.xcassets */; };
+		3FB96C6D1C7EDA9F00A73953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB96C6B1C7EDA9F00A73953 /* LaunchScreen.storyboard */; };
+		3FB96C781C7EDA9F00A73953 /* ShopCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB96C771C7EDA9F00A73953 /* ShopCarTests.m */; };
+		3FB96C831C7EDA9F00A73953 /* ShopCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB96C821C7EDA9F00A73953 /* ShopCarUITests.m */; };
+		3FB96C921C7EDD0900A73953 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB96C911C7EDD0900A73953 /* RootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3FB96C941C7EDDC100A73953 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB96C931C7EDDC100A73953 /* 0.jpg */; settings = {ASSET_TAGS = (); }; };
+		3FB96C961C7EDDC500A73953 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB96C951C7EDDC500A73953 /* 1.jpg */; settings = {ASSET_TAGS = (); }; };
+		3FB96C9B1C7EDF6F00A73953 /* SignleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB96C991C7EDF6F00A73953 /* SignleSelectTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3FB96C9C1C7EDF6F00A73953 /* SignleSelectTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB96C9A1C7EDF6F00A73953 /* SignleSelectTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		3FB96CA01C7EDFA100A73953 /* SignleSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB96C9E1C7EDFA100A73953 /* SignleSelectCell.m */; settings = {ASSET_TAGS = (); }; };
+		3FB96CA11C7EDFA100A73953 /* SignleSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB96C9F1C7EDFA100A73953 /* SignleSelectCell.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB96C741C7EDA9F00A73953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB96C521C7EDA9F00A73953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB96C591C7EDA9F00A73953;
+			remoteInfo = ShopCar;
+		};
+		3FB96C7F1C7EDA9F00A73953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB96C521C7EDA9F00A73953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB96C591C7EDA9F00A73953;
+			remoteInfo = ShopCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8FFD321C7FDC3400CE2359 /* MutibleSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutibleSelectTableViewController.h; sourceTree = "<group>"; };
+		3F8FFD331C7FDC3400CE2359 /* MutibleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutibleSelectTableViewController.m; sourceTree = "<group>"; };
+		3F8FFD341C7FDC3400CE2359 /* MutibleSelectTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MutibleSelectTableViewController.xib; sourceTree = "<group>"; };
+		3F8FFD411C7FF51700CE2359 /* PriceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceTableViewController.h; sourceTree = "<group>"; };
+		3F8FFD421C7FF51700CE2359 /* PriceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceTableViewController.m; sourceTree = "<group>"; };
+		3F8FFD431C7FF51700CE2359 /* PriceTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceTableViewController.xib; sourceTree = "<group>"; };
+		3F8FFD491C7FF56400CE2359 /* PriceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceTableViewCell.h; sourceTree = "<group>"; };
+		3F8FFD4A1C7FF56400CE2359 /* PriceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceTableViewCell.m; sourceTree = "<group>"; };
+		3F8FFD4B1C7FF56400CE2359 /* PriceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceTableViewCell.xib; sourceTree = "<group>"; };
+		3F8FFD4E1C7FF85900CE2359 /* priceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = priceModel.h; sourceTree = "<group>"; };
+		3F8FFD4F1C7FF85900CE2359 /* priceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = priceModel.m; sourceTree = "<group>"; };
+		3F8FFD511C7FFB9900CE2359 /* 屏幕快照 2015-12-24 上午10.39.48_spec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2015-12-24 上午10.39.48_spec.png"; sourceTree = "<group>"; };
+		3FB96C5A1C7EDA9F00A73953 /* ShopCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB96C5E1C7EDA9F00A73953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FB96C601C7EDA9F00A73953 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FB96C611C7EDA9F00A73953 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FB96C671C7EDA9F00A73953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB96C691C7EDA9F00A73953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB96C6C1C7EDA9F00A73953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB96C6E1C7EDA9F00A73953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB96C731C7EDA9F00A73953 /* ShopCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB96C771C7EDA9F00A73953 /* ShopCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCarTests.m; sourceTree = "<group>"; };
+		3FB96C791C7EDA9F00A73953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB96C7E1C7EDA9F00A73953 /* ShopCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB96C821C7EDA9F00A73953 /* ShopCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCarUITests.m; sourceTree = "<group>"; };
+		3FB96C841C7EDA9F00A73953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB96C901C7EDD0900A73953 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		3FB96C911C7EDD0900A73953 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		3FB96C931C7EDDC100A73953 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		3FB96C951C7EDDC500A73953 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		3FB96C981C7EDF6F00A73953 /* SignleSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignleSelectTableViewController.h; sourceTree = "<group>"; };
+		3FB96C991C7EDF6F00A73953 /* SignleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignleSelectTableViewController.m; sourceTree = "<group>"; };
+		3FB96C9A1C7EDF6F00A73953 /* SignleSelectTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignleSelectTableViewController.xib; sourceTree = "<group>"; };
+		3FB96C9D1C7EDFA100A73953 /* SignleSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignleSelectCell.h; sourceTree = "<group>"; };
+		3FB96C9E1C7EDFA100A73953 /* SignleSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignleSelectCell.m; sourceTree = "<group>"; };
+		3FB96C9F1C7EDFA100A73953 /* SignleSelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignleSelectCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB96C571C7EDA9F00A73953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB96C701C7EDA9F00A73953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB96C7B1C7EDA9F00A73953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8FFD311C7FDBD400CE2359 /* 多选 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8FFD321C7FDC3400CE2359 /* MutibleSelectTableViewController.h */,
+				3F8FFD331C7FDC3400CE2359 /* MutibleSelectTableViewController.m */,
+				3F8FFD341C7FDC3400CE2359 /* MutibleSelectTableViewController.xib */,
+			);
+			name = "多选";
+			path = "单选/多选";
+			sourceTree = "<group>";
+		};
+		3F8FFD371C7FF4A600CE2359 /* 加减 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8FFD411C7FF51700CE2359 /* PriceTableViewController.h */,
+				3F8FFD421C7FF51700CE2359 /* PriceTableViewController.m */,
+				3F8FFD431C7FF51700CE2359 /* PriceTableViewController.xib */,
+				3F8FFD491C7FF56400CE2359 /* PriceTableViewCell.h */,
+				3F8FFD4A1C7FF56400CE2359 /* PriceTableViewCell.m */,
+				3F8FFD4B1C7FF56400CE2359 /* PriceTableViewCell.xib */,
+				3F8FFD4E1C7FF85900CE2359 /* priceModel.h */,
+				3F8FFD4F1C7FF85900CE2359 /* priceModel.m */,
+			);
+			path = "加减";
+			sourceTree = "<group>";
+		};
+		3FB96C511C7EDA9F00A73953 = {
+			isa = PBXGroup;
+			children = (
+				3FB96C5C1C7EDA9F00A73953 /* ShopCar */,
+				3FB96C761C7EDA9F00A73953 /* ShopCarTests */,
+				3FB96C811C7EDA9F00A73953 /* ShopCarUITests */,
+				3FB96C5B1C7EDA9F00A73953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB96C5B1C7EDA9F00A73953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB96C5A1C7EDA9F00A73953 /* ShopCar.app */,
+				3FB96C731C7EDA9F00A73953 /* ShopCarTests.xctest */,
+				3FB96C7E1C7EDA9F00A73953 /* ShopCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB96C5C1C7EDA9F00A73953 /* ShopCar */ = {
+			isa = PBXGroup;
+			children = (
+				3FB96C601C7EDA9F00A73953 /* AppDelegate.h */,
+				3FB96C611C7EDA9F00A73953 /* AppDelegate.m */,
+				3FB96C901C7EDD0900A73953 /* RootTableViewController.h */,
+				3FB96C911C7EDD0900A73953 /* RootTableViewController.m */,
+				3F8FFD371C7FF4A600CE2359 /* 加减 */,
+				3F8FFD311C7FDBD400CE2359 /* 多选 */,
+				3FB96C971C7EDF0600A73953 /* 单选 */,
+				3FB96C661C7EDA9F00A73953 /* Main.storyboard */,
+				3FB96C691C7EDA9F00A73953 /* Assets.xcassets */,
+				3FB96C6B1C7EDA9F00A73953 /* LaunchScreen.storyboard */,
+				3FB96C6E1C7EDA9F00A73953 /* Info.plist */,
+				3FB96C931C7EDDC100A73953 /* 0.jpg */,
+				3FB96C951C7EDDC500A73953 /* 1.jpg */,
+				3F8FFD511C7FFB9900CE2359 /* 屏幕快照 2015-12-24 上午10.39.48_spec.png */,
+				3FB96C5D1C7EDA9F00A73953 /* Supporting Files */,
+			);
+			path = ShopCar;
+			sourceTree = "<group>";
+		};
+		3FB96C5D1C7EDA9F00A73953 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB96C5E1C7EDA9F00A73953 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB96C761C7EDA9F00A73953 /* ShopCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB96C771C7EDA9F00A73953 /* ShopCarTests.m */,
+				3FB96C791C7EDA9F00A73953 /* Info.plist */,
+			);
+			path = ShopCarTests;
+			sourceTree = "<group>";
+		};
+		3FB96C811C7EDA9F00A73953 /* ShopCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB96C821C7EDA9F00A73953 /* ShopCarUITests.m */,
+				3FB96C841C7EDA9F00A73953 /* Info.plist */,
+			);
+			path = ShopCarUITests;
+			sourceTree = "<group>";
+		};
+		3FB96C971C7EDF0600A73953 /* 单选 */ = {
+			isa = PBXGroup;
+			children = (
+				3FB96C981C7EDF6F00A73953 /* SignleSelectTableViewController.h */,
+				3FB96C991C7EDF6F00A73953 /* SignleSelectTableViewController.m */,
+				3FB96C9A1C7EDF6F00A73953 /* SignleSelectTableViewController.xib */,
+				3FB96C9D1C7EDFA100A73953 /* SignleSelectCell.h */,
+				3FB96C9E1C7EDFA100A73953 /* SignleSelectCell.m */,
+				3FB96C9F1C7EDFA100A73953 /* SignleSelectCell.xib */,
+			);
+			path = "单选";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB96C591C7EDA9F00A73953 /* ShopCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB96C871C7EDA9F00A73953 /* Build configuration list for PBXNativeTarget "ShopCar" */;
+			buildPhases = (
+				3FB96C561C7EDA9F00A73953 /* Sources */,
+				3FB96C571C7EDA9F00A73953 /* Frameworks */,
+				3FB96C581C7EDA9F00A73953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopCar;
+			productName = ShopCar;
+			productReference = 3FB96C5A1C7EDA9F00A73953 /* ShopCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB96C721C7EDA9F00A73953 /* ShopCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB96C8A1C7EDA9F00A73953 /* Build configuration list for PBXNativeTarget "ShopCarTests" */;
+			buildPhases = (
+				3FB96C6F1C7EDA9F00A73953 /* Sources */,
+				3FB96C701C7EDA9F00A73953 /* Frameworks */,
+				3FB96C711C7EDA9F00A73953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB96C751C7EDA9F00A73953 /* PBXTargetDependency */,
+			);
+			name = ShopCarTests;
+			productName = ShopCarTests;
+			productReference = 3FB96C731C7EDA9F00A73953 /* ShopCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FB96C7D1C7EDA9F00A73953 /* ShopCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB96C8D1C7EDA9F00A73953 /* Build configuration list for PBXNativeTarget "ShopCarUITests" */;
+			buildPhases = (
+				3FB96C7A1C7EDA9F00A73953 /* Sources */,
+				3FB96C7B1C7EDA9F00A73953 /* Frameworks */,
+				3FB96C7C1C7EDA9F00A73953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB96C801C7EDA9F00A73953 /* PBXTargetDependency */,
+			);
+			name = ShopCarUITests;
+			productName = ShopCarUITests;
+			productReference = 3FB96C7E1C7EDA9F00A73953 /* ShopCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB96C521C7EDA9F00A73953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = guantianbu;
+				TargetAttributes = {
+					3FB96C591C7EDA9F00A73953 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3FB96C721C7EDA9F00A73953 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3FB96C591C7EDA9F00A73953;
+					};
+					3FB96C7D1C7EDA9F00A73953 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3FB96C591C7EDA9F00A73953;
+					};
+				};
+			};
+			buildConfigurationList = 3FB96C551C7EDA9F00A73953 /* Build configuration list for PBXProject "ShopCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB96C511C7EDA9F00A73953;
+			productRefGroup = 3FB96C5B1C7EDA9F00A73953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB96C591C7EDA9F00A73953 /* ShopCar */,
+				3FB96C721C7EDA9F00A73953 /* ShopCarTests */,
+				3FB96C7D1C7EDA9F00A73953 /* ShopCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB96C581C7EDA9F00A73953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB96CA11C7EDFA100A73953 /* SignleSelectCell.xib in Resources */,
+				3FB96C941C7EDDC100A73953 /* 0.jpg in Resources */,
+				3FB96C6D1C7EDA9F00A73953 /* LaunchScreen.storyboard in Resources */,
+				3FB96C6A1C7EDA9F00A73953 /* Assets.xcassets in Resources */,
+				3F8FFD451C7FF51700CE2359 /* PriceTableViewController.xib in Resources */,
+				3F8FFD4D1C7FF56400CE2359 /* PriceTableViewCell.xib in Resources */,
+				3FB96C9C1C7EDF6F00A73953 /* SignleSelectTableViewController.xib in Resources */,
+				3FB96C681C7EDA9F00A73953 /* Main.storyboard in Resources */,
+				3F8FFD361C7FDC3400CE2359 /* MutibleSelectTableViewController.xib in Resources */,
+				3FB96C961C7EDDC500A73953 /* 1.jpg in Resources */,
+				3F8FFD521C7FFB9900CE2359 /* 屏幕快照 2015-12-24 上午10.39.48_spec.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB96C711C7EDA9F00A73953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB96C7C1C7EDA9F00A73953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB96C561C7EDA9F00A73953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB96CA01C7EDFA100A73953 /* SignleSelectCell.m in Sources */,
+				3F8FFD441C7FF51700CE2359 /* PriceTableViewController.m in Sources */,
+				3FB96C921C7EDD0900A73953 /* RootTableViewController.m in Sources */,
+				3F8FFD351C7FDC3400CE2359 /* MutibleSelectTableViewController.m in Sources */,
+				3FB96C621C7EDA9F00A73953 /* AppDelegate.m in Sources */,
+				3F8FFD501C7FF85900CE2359 /* priceModel.m in Sources */,
+				3F8FFD4C1C7FF56400CE2359 /* PriceTableViewCell.m in Sources */,
+				3FB96C5F1C7EDA9F00A73953 /* main.m in Sources */,
+				3FB96C9B1C7EDF6F00A73953 /* SignleSelectTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB96C6F1C7EDA9F00A73953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB96C781C7EDA9F00A73953 /* ShopCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB96C7A1C7EDA9F00A73953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB96C831C7EDA9F00A73953 /* ShopCarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB96C751C7EDA9F00A73953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB96C591C7EDA9F00A73953 /* ShopCar */;
+			targetProxy = 3FB96C741C7EDA9F00A73953 /* PBXContainerItemProxy */;
+		};
+		3FB96C801C7EDA9F00A73953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB96C591C7EDA9F00A73953 /* ShopCar */;
+			targetProxy = 3FB96C7F1C7EDA9F00A73953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB96C661C7EDA9F00A73953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB96C671C7EDA9F00A73953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB96C6B1C7EDA9F00A73953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB96C6C1C7EDA9F00A73953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB96C851C7EDA9F00A73953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB96C861C7EDA9F00A73953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB96C881C7EDA9F00A73953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShopCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.ShopCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FB96C891C7EDA9F00A73953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShopCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.ShopCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FB96C8B1C7EDA9F00A73953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShopCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.ShopCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopCar.app/ShopCar";
+			};
+			name = Debug;
+		};
+		3FB96C8C1C7EDA9F00A73953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShopCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.ShopCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopCar.app/ShopCar";
+			};
+			name = Release;
+		};
+		3FB96C8E1C7EDA9F00A73953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShopCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.ShopCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShopCar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FB96C8F1C7EDA9F00A73953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShopCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.ShopCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShopCar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB96C551C7EDA9F00A73953 /* Build configuration list for PBXProject "ShopCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB96C851C7EDA9F00A73953 /* Debug */,
+				3FB96C861C7EDA9F00A73953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB96C871C7EDA9F00A73953 /* Build configuration list for PBXNativeTarget "ShopCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB96C881C7EDA9F00A73953 /* Debug */,
+				3FB96C891C7EDA9F00A73953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB96C8A1C7EDA9F00A73953 /* Build configuration list for PBXNativeTarget "ShopCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB96C8B1C7EDA9F00A73953 /* Debug */,
+				3FB96C8C1C7EDA9F00A73953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB96C8D1C7EDA9F00A73953 /* Build configuration list for PBXNativeTarget "ShopCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB96C8E1C7EDA9F00A73953 /* Debug */,
+				3FB96C8F1C7EDA9F00A73953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB96C521C7EDA9F00A73953 /* Project object */;
+}
